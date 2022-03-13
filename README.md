@@ -1,5 +1,8 @@
 # voc
-Simple PASCAL VOC object detection in-memory evaluation on a custom dataset in JSON format, without saving to disk.
+Simple PASCAL VOC object detection in-memory evaluation on a custom dataset in JSON format, without saving to disk. The evaluation supports the following metrics:
+- Average precision (AP) for each class, and mean average precision (mAP) for all the classes
+- Recall
+- Precision
 
 This code supports JSON format for the bounding box annotations, but it is easy to modify to support other formats, like csv.
 ```json
