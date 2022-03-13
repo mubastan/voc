@@ -146,8 +146,8 @@ class DetectionDataset(Dataset):
         return aps, mAP
 
 if __name__ == '__main__':
-    annotation_file_path = 'labels/test.json'
-    image_dir = 'images/'
+    annotation_file_path = 'test.json'
+    image_dir = './'
     classes = ['__background__', 'logo']
     dataset = DetectionDataset(annotation_file_path, image_dir, classes, preproc=None, mode='test')
     print(dataset.annotations)
