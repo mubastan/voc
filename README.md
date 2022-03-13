@@ -26,7 +26,7 @@ This code supports JSON format for the bounding box annotations, but it is easy 
 
 # Files
   - **dataset.py**: Custom dataset loader in PyTorch for JSON annotation files, with sample VOC evaluation code (see main at the end)
-  - **voc_eval.py**: PASCAL VOC object detection evaluation in memory, adapted from the [original code](https://github.com/GOATmessi7/RFBNet/blob/master/data/voc_eval.py) (by Bharath Hariharan) which requires the annotations to be saved in XML format for each image
+  - **voc_eval.py**: PASCAL VOC object detection evaluation in memory, adapted from the [original code](https://github.com/GOATmessi7/RFBNet/blob/master/data/voc_eval.py) (by Bharath Hariharan -- the original code requires the annotations to be saved in XML format for each image). This code performs the evaluation in memory, and does not require XML files.
 
 # Usage
 ```python
