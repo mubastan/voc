@@ -7,12 +7,12 @@ Simple PASCAL VOC object detection in-memory evaluation on a custom dataset in J
 This code supports JSON format for the bounding box annotations, but it is easy to modify to support other formats, like csv. The JSON format:
 ```json
 {
-    "image_file": [[bounding_box, "class_label"], ...],
+    "image_file": [[bounding_box, "class_label"], ...]
 }
 ```
 ```json
 {
-    "image_file": [[[x1,y1,x2,y2], "class_label"], [[x1,y1,x2,y2], "class_label"]],
+    "image_file": [[[x1,y1,x2,y2], "class_label"], [[x1,y1,x2,y2], "class_label"]]
 }
 ```
 
