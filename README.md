@@ -20,7 +20,7 @@ This code supports JSON format for the bounding box annotations, but it is easy 
 {
     "image01.jpg": [[[100,150,200,300], "duck"], [[300,140,400,600], "bunny"]],
     "image02.jpg": [[[100,150,200,300], "goat"]],
-    "image03.jpg": [[[100,150,200,300], "bird"], [[300,140,400,600], "goose"]]
+    "image03.jpg": [[[100,150,200,300], "chicken"], [[300,140,400,600], "goose"]]
 }
 ```
 
