@@ -1,5 +1,5 @@
 # voc
-Simple PASCAL VOC object detection evaluation on a custom dataset in memory, without saving to disk.
+Simple PASCAL VOC object detection in-memory evaluation on a custom dataset in JSON format, without saving to disk.
 
 This code supports JSON format for the bounding box annotations, but it is easy to modify to support other formats, like csv.
 ```json
